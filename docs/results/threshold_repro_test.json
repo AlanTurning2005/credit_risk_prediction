@@ -1,0 +1,29 @@
+{
+    "optimal_threshold": 0.7,
+    "profit_margin": 0.15,
+    "loss_given_default": 0.75,
+    "expected_approval_rate_%": 87.12,
+    "expected_portfolio_bad_rate_%": 5.79,
+    "credit_score_scale": {
+        "min": 300,
+        "max": 850
+    },
+    "risk_tiers": {
+        "VERY_LOW_RISK": {
+            "score_min": 750,
+            "action": "AUTO_APPROVE"
+        },
+        "LOW_RISK": {
+            "score_min": 670,
+            "action": "APPROVE"
+        },
+        "MEDIUM_RISK": {
+            "score_min": 580,
+            "action": "MANUAL_REVIEW"
+        },
+        "HIGH_RISK": {
+            "score_min": 300,
+            "action": "REJECT"
+        }
+    }
+}

@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Data files (Do not commit large datasets)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Trained models & checkpoints
+models/*
+!models/.gitkeep
+!models/best_model.keras
+*.h5
+*.joblib
+*.pkl
+
+# Environments & OS files
+.env
+.DS_Store
+Thumbs.db
+*.log
+
+# Kết quả sinh ra khi chạy cục bộ và cấu hình trình soạn thảo
+.pytest_cache/
+.vscode/
